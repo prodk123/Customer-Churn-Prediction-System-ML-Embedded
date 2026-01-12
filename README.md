@@ -71,4 +71,4 @@ VITE_API_BASE_URL=http://localhost:8000
 Replace the stub implementation in:
 - `backend/services/ml_services.py`
 
-The backend routes call `predict_from_dataframe(df)` from that file, so you can swap in a real pipeline without changing API routes.
+The backend routes call `predict_churn` from that file, so you can swap in a real pipeline without changing API routes.
